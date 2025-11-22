@@ -1,0 +1,43 @@
+body {
+  background: url(background.jpg) bottom center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: all 0.07s ease;
+  border-radius: 7px;
+}
+.sound {
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  color: #ffc600;
+}
+
+kdb {
+  font-size: 20px;
+  color: white;
+}
+
+.playing {
+  border: 5px #ffc600 solid;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px 5px rgba(164, 185, 2, 0.5);
+}
